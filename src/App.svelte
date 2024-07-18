@@ -174,6 +174,8 @@
 		resizeTo: window,
 	});
 
+	window.__PIXI_APP__ = app;
+
 	// Enable PixiJS dev tools in development
 	if (process.env.NODE_ENV == "development") {
 		// @ts-ignore
